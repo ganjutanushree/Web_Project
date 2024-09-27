@@ -28,29 +28,6 @@ A responsive Twitter clone built using HTML and CSS, designed to mimic the look 
 
 Check out a live demo of the Twitter clone here: [Live Demo Link](#)
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/twitter-clone.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd twitter-clone
-   ```
-3. Open the `index.html` file in your web browser.
-
-## Folder Structure
-
-```
-twitter-clone/
-├── css/
-│   └── style.css
-├── images/
-│   └── (all image files)
-└── index.html
-```
-
 ## Mobile Responsiveness
 
 This project is fully responsive:
