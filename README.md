@@ -1,8 +1,3 @@
-# Web_Project
-Here’s a structured README template for your Twitter clone project, which you can use on GitHub. It highlights the key aspects of your project, its purpose, installation steps, and other relevant details.
-
----
-
 # Twitter Clone
 
 A responsive Twitter clone built using HTML and CSS, designed to mimic the look and feel of the popular social media platform. The project is focused on replicating Twitter's layout and user interface for both desktop and mobile screens.
