@@ -57,8 +57,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ### Connect with Me
 
-- GitHub: [yourusername](https://github.com/yourusername)
-- Twitter: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+- GitHub: [ganjutanushree](https://github.com/ganjutanushree)
   
 ---
 
