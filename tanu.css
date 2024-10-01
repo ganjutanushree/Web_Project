@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+}
+
+.twitter{
+    filter: invert(1);
+    height: 30px;
+    width: 30px;
+}
+
+li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.symbols{
+    height: 25px;
+    width: 25px;
+    filter: invert(1);
+    margin-top: 12px;
+    margin-right: 17px;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    width: 30%;
+    height: 100vh;
+}
+
+.center{
+    width: 40%;
+    height: 100vh;
+    border-left: 1.5px solid rgba(47,51,54,1);
+    border-right: 1.5px solid rgba(47,51,54,1);
+    overflow: scroll;
+}
+
+.navbar{
+    display: flex;
+    height: 7%;
+    border-bottom: 1.5px solid rgba(47,51,54,1);
+    font-weight: 900;
+}
+
+.forYou{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forYou:hover{
+    background-color: rgb(81, 81, 81) ;
+    opacity: 0.3;
+}
+
+.Following{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(125, 127, 129);
+}
+
+.Following:hover{
+    background-color: rgb(81, 81, 81);
+    opacity: 0.3;
+}
+
+.right{
+    width: 30%;
+}
+
+.top-right{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30vh;
+    margin-bottom: 20px;
+}
+
+input{
+    border-radius: 40px;
+    padding: 15px;
+    width: 300px;
+    border: none;
+    display: block;
+    background-color: rgba(32,35,39,1);
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+.subscribe{
+    padding:10px 20px 8px 10px ;
+    border: 1.5px solid rgba(47,51,54,1);
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 16px;
+    height: fit-content;
+}
+
+.subscribe h2,p {
+    margin-bottom: 15px; 
+}
+
+.subscribe button{
+    padding: 10px;
+    border-radius:30px ;
+    border: none;
+    width: 100px;
+    background-color: rgba(29,155,240,1);
+    color: white;
+    font-weight: bold;
+}
+
+.trending{
+    margin-top: 2vh;
+    height: fit-content;
+    padding:10px 19px ;
+    border: 1.5px solid rgba(47,51,54,1);
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 16px;
+}
+
+.trending p{
+    color:rgb(125, 127, 129);
+    font-size: 14px;
+}
+
+.trending h2,p,h4{
+    margin-bottom: 6px;
+}
+
+.follow{
+    margin-top: 2vh;
+    height:fit-content;
+    padding:10px 19px ;
+    border: 1.5px solid rgba(47,51,54,1);
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 16px;
+}
+
+.follow p{
+    color:rgb(125, 127, 129);
+    font-size: 14px;
+}
+
+.follow h2,p,h5{
+    margin-bottom: 10px;
+}
+
+.post{
+    display: flex;
+    padding: 15px;
+    border: 0.5px solid rgba(47,51,54,1);
+}
+
+.postImage img{
+    height: 60vh;
+    width: 60vh;
+    border-radius: 16px;
+}
+
+.profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.email-content{
+    display: flex;
+    gap:5px;
+}
+
+.email-content p{
+    color:rgb(125, 127, 129);
+}
+
+.content{
+    margin-right: 20px;
+}
+
+.content h5{
+    font-size: 16px;
+}
+
+.post-list{
+    padding: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgba(29,155,240,1);
+    border: none;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Mobile Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Stack columns vertically */
+    .container {
+        flex-direction: column;
+    }
+
+    /* Make center feed take full width */
+    .center {
+        width: 100%;
+        height: auto;
+        border-left: none;
+        border-right: none;
+    }
+
+    /* Hide sidebars */
+    .left, .right {
+        display: none;
+    }
+
+    /* Adjust navbar for mobile */
+    .navbar {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    /* Make buttons and inputs full width */
+    .post-list, input, .subscribe, .trending, .follow {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Adjust image size for posts */
+    .postImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust profile image size */
+    .profile img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Smaller screens adjustments */
+    .navbar {
+        font-size: 14px;
+    }
+
+    /* Further reduce profile image size */
+    .profile img {
+        height: 30px;
+        width: 30px;
+    }
+
+    /* Smaller buttons and text */
+    .post-list {
+        font-size: 13px;
+        padding: 10px;
+    }
+}
