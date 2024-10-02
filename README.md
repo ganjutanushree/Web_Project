@@ -16,11 +16,12 @@ A responsive Twitter clone built using HTML and CSS, designed to mimic the look 
 - **CSS3**: For styling and layout design.
   - Flexbox: Used for the layout of the page, ensuring flexibility and responsiveness.
   - Media Queries: To handle different screen sizes, particularly mobile responsiveness.
-
+    
 ## Demo
 
-Check out a live demo of the Twitter clone here: [](#)[
-](https://github.com/ganjutanushree/Web_Project)
+Check out a live demo of the Twitter clone here: [Live Demo](https://ganjutanushree.github.io/Web_Project/)
+
+
 ## Mobile Responsiveness
 
 This project is fully responsive:
