@@ -2,7 +2,7 @@
 
 A responsive Twitter clone built using HTML and CSS, designed to mimic the look and feel of the popular social media platform. The project is focused on replicating Twitter's layout and user interface for both desktop and mobile screens.
 
-![Twitter Clone Preview](link-to-screenshot)
+![Twitter Clone Preview]([](https://ganjutanushree.github.io/Web_Project/)
 
 ## Features
 
